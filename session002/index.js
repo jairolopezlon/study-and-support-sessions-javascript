@@ -1,25 +1,33 @@
-// //*** Comentarios ***
+//*** Comentarios ***
 
-// // Comentario de una sola línea
-// // Este es un comentario de una sola línea
+// Comentario de una sola línea
+// Este es un comentario de una sola línea
 
-// // Otro comentario de una sola línea
+// Otro comentario de una sola línea
 
-// /*
-// Este es un comentario de varias líneas.
-// Puede abarcar múltiples líneas.
-// */
+/*
+Este es un comentario de varias líneas.
+Puede abarcar múltiples líneas.
+*/
 
-// /*
-// Otro comentario de varias líneas.
-// Explicación adicional del código.
-// */
+/*
+Otro comentario de varias líneas.
+Explicación adicional del código.
+*/
 
-// //*** String o Cadenas de Texto ***
+//*** String o Cadenas de Texto ***
 
-// // Comillas dobles
+// Comillas dobles
+// let nombreAnimal;
+// nombreAnimal = "perro";
+// console.log(nombreAnimal);
+// nombreAnimal = 'pato';
+// console.log(nombreAnimal);
+
+// let nombreVariable = "mi nombre";
+// nombreVariable = "mi nombre";
 // let saludo1 = "Hola, Mundo!";
-// console.log(saludo1);
+// console.log(nombreVariable);
 // alert(saludo1);
 
 // let nombre1 = "Juan";
@@ -27,7 +35,7 @@
 // console.log(mensaje1);
 // alert(mensaje1);
 
-// // Comillas simples
+// // // Comillas simples
 // let saludo2 = "Hola, Mundo!";
 // console.log(saludo2);
 // alert(saludo2);
@@ -37,9 +45,13 @@
 // console.log(mensaje2);
 // alert(mensaje2);
 
-// // Comillas invertidas (Template Literals)
-// let nombre3 = "Juan";
+// Comillas invertidas (Template Literals)
+// let nombre3 = 'Pedro';
 // let saludo3 = `Hola, ${nombre3}!`;
+// console.log(saludo3);
+// saludo3 = 'Hola, ${nombre3}!';
+// console.log(saludo3);
+// saludo3 = "Hola, ${nombre3}!";
 // console.log(saludo3);
 // alert(saludo3);
 
@@ -50,11 +62,25 @@
 
 // //*** Condicional ***
 
-// // if
+// if
 // let edadUsuario = prompt("¿Cuál es tu edad?");
 // if (edadUsuario >= 18) {
 //   console.log("Eres mayor de edad.");
-//   alert("Eres mayor de edad.");
+//   // alert("Eres mayor de edad.");
+// }
+
+// let a = prompt("¿Cuál es tu estatura?");
+// if (a >= 130) {
+//   console.log("puedes montarte");
+//   // alert("Eres mayor de edad.");
+// }
+
+// let f = prompt("¿Cuál es tu contraseña?");
+// if (f == '123') {
+//   console.log("con ingreso");
+//   // alert("Eres mayor de edad.");
+// } else {
+//   console.log("sin ingreso");
 // }
 
 // // if-else
@@ -68,12 +94,16 @@
 
 // //*** Operadores de Comparación ***
 
-// // ==
+// // = asignacion
+// // == comparacion de igualdad
+
 // let a = 5;
 // let b = "5";
-// if (a == b) {
+// if (a === b) {
 //   console.log("5 == '5' es verdadero");
-//   alert("5 == '5' es verdadero");
+//   // alert("5 == '5' es verdadero");
+// } else {
+//   console.log("5 == '5' es falso");
 // }
 
 // // != (más adelante)
@@ -99,25 +129,33 @@
 // // Signo "+"
 // let saludo4 = "Hola";
 // let nombre4 = "Mundo";
-// let mensaje4 = saludo4 + ", " + nombre4 + "!";
+// let mensaje4 = saludo4 + ", " + nombre4 + "!!!!";
 // console.log(mensaje4);
-// alert(mensaje4);
 
 // let parte1 = "Buenos días, ";
 // let parte2 = "¿cómo estás?";
 // let mensaje5 = parte1 + parte2;
 // console.log(mensaje5);
-// alert(mensaje5);
+// // alert(mensaje5);
 
-// // Template string
+// Template string
 // let nombre5 = "Carlos";
-// let saludo5 = `Hola, ${nombre5}! ¿Cómo estás?`;
+// let nombre6 = "maria"
+// let saludo5 = `Hola, ${nombre5}! ¿Cómo estás?. ¿tu conoces a ${nombre6}?`;
+// let saludo8 = `Hola, ${nombre6}?`;
 // console.log(saludo5);
-// alert(saludo5);
+// console.log(saludo8);
+// // alert(saludo5);
 
-// let ciudad = "Madrid";
-// let mensaje6 = `Vivo en ${ciudad}.`;
-// console.log(mensaje6);
+let ciudad = "cordoba";
+let mensaje6 = `Vivo en ${ciudad}.`;
+let mensaje2 = `ciudad de residencia ${ciudad}.`;
+let mensaje4 = `tu padre vive en ${ciudad}.`;
+let mensaje5 = `tu madre vive en ${ciudad}.`;
+console.log(mensaje6);
+console.log(mensaje2);
+console.log(mensaje4);
+console.log(mensaje5);
 // alert(mensaje6);
 
 // // Método de String concat
@@ -128,3 +166,5 @@
 // let mensaje7 = "Buenos".concat(" días, ", "Mundo!");
 // console.log(mensaje7);
 // alert(mensaje7);
+
+
